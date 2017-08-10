@@ -33,4 +33,5 @@ urlpatterns = [
     url(r'^oai_pmh/', include("core_oaipmh_harvester_app.urls")),
     url(r'^oai_pmh/server/', include("core_oaipmh_provider_app.urls")),
     url(r'^docs/api', include('rest_framework_swagger.urls')),
+    url(r'^tsne/', include("core_tsne_app.urls")),
 ]
