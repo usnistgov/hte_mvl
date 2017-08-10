@@ -65,6 +65,7 @@ INSTALLED_APPS = (
     "core_federated_search_app",
     "core_explore_example_app",
     "core_dashboard_app",
+    "core_workspace_app",
 
     # Local apps
     "hte_mvl_home"
