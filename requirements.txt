@@ -14,4 +14,4 @@ core_explore_oaipmh_app==1.0.0-alpha3
 core_composer_app==1.0.0-alpha3
 core_exporters_app==1.0.0-alpha3
 core_tsne_app==1.0.0-alpha1
-django-rest-swagger==0.1.14
+django-rest-swagger==2.1.2
