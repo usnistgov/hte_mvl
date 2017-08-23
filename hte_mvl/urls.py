@@ -38,4 +38,5 @@ urlpatterns = [
     url(r'^oai_pmh/server/', include("core_oaipmh_provider_app.urls")),
     url(r'^docs/api', schema_view),
     url(r'^tsne/', include("core_tsne_app.urls")),
+    url(r'^workspace/', include("core_workspace_app.urls")),
 ]
