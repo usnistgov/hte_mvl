@@ -32,6 +32,7 @@ urlpatterns = [
     url(r'^explore/example/', include("core_explore_example_app.urls")),
     url(r'^explore/type/example/', include('core_explore_example_type_app.urls')),
     url(r'^explore/federated/search/', include("core_explore_federated_search_app.urls")),
+    url(r'^explore/periodic_table/', include("core_explore_periodic_table_app.urls")),
     url(r'^oaipmh_search/', include("core_explore_oaipmh_app.urls")),
     url(r'^dashboard/', include("core_dashboard_app.urls")),
     url(r'^oai_pmh/', include("core_oaipmh_harvester_app.urls")),
