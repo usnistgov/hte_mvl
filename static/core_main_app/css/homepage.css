@@ -3,8 +3,8 @@
     text-align: justify;
 }
 
-#intro #mgi-diagram {
-    width: 15em;
+#intro #intro-logo {
+    width: 30em;
 }
 
 #browse-btn {
@@ -51,8 +51,12 @@
 }
 
 /**
- *
- **/
-#available-options {
-    margin-bottom: 0;
+ * Scope table
+ */
+#scope-table h3 {
+    margin-bottom: 0.25em;
+}
+
+#scope-table p {
+    margin-bottom: 0.3em;
 }
