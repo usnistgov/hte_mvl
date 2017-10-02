@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name="hte_mvl",
-    version="1.0.0-alpha1",
+    version="1.0.0-alpha2",
     description=("High Throughput Experiment Material Virtual Library package",),
     author="NIST IT Lab",
     author_email="itl_inquiries@nist.gov",
