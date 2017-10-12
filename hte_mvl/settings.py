@@ -67,7 +67,6 @@ INSTALLED_APPS = (
     "core_explore_example_app",
     "core_explore_example_type_app",
     "core_dashboard_app",
-    "core_workspace_app",
     "core_tsne_app",
 
     # Local apps
