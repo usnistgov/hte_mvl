@@ -14,9 +14,6 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from rest_framework_swagger.views import get_swagger_view
-
-schema_view = get_swagger_view(title="REST API")
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -37,6 +34,5 @@ urlpatterns = [
     url(r'^dashboard/', include("core_dashboard_app.urls")),
     url(r'^oai_pmh/', include("core_oaipmh_harvester_app.urls")),
     url(r'^oai_pmh/server/', include("core_oaipmh_provider_app.urls")),
-    url(r'^docs/api', schema_view),
     url(r'^tsne/', include("core_tsne_app.urls")),
 ]
